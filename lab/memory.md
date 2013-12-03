@@ -38,6 +38,7 @@ Fundera över hur ett memoryspel fungerar. Fundera också över vilka funktioner
 Följande krav ställs på ditt memoryspel:
 
 - Det ska gå generera fram spelplanen. Antal rader och kolumner ska på ett enkelt sätt kunna ändras. Det är dock tillåtet att göra denna enkla ändring i koden via t.ex. två variabler. Du behöver alltså inte läsa in spelplanens storlek från användaren.Nedan visas några exempel på hur en spelplan kan se ut. Bilderna visar en spelplan med 4x4 bilder (8 par) och en med 4x2 (4 par).
+
 ![][memory4]
 ![][memory2]
 
@@ -51,7 +52,9 @@ RandomGenerator.getPictureArray(rows, cols) som du hittar bifogat laborationen. 
 * Spelplanen ska skrivas ut på ett till ändamålet tillfredställande sätt. Det är godkänt att ha spelet i en tabell.
 * För att vända på en bild ska användaren klicka med musknappen på aktuell bild.
 * Det ska inte hända något om användaren klickar på en bild som redan visas (ej frågetecken).
-* När användaren tryckt fram ett par (två kort) som inte överensstämmer med varandra ska bild-paret visas maximalt 1 sekund för att sedan döljas igen. ![][memory_win]
+* När användaren tryckt fram ett par (två kort) som inte överensstämmer med varandra ska bild-paret visas maximalt 1 sekund för att sedan döljas igen. 
+
+![][memory_win]
 * När spelet är slut ska användaren upplysas om att spelet är slut samt **hur många försök** som krävdes för att klara spelet. (Genom en utskrift i dokumentet, ej genom console.log) 
 
 ### Moment II
