@@ -38,8 +38,8 @@ Fundera över hur ett memoryspel fungerar. Fundera också över vilka funktioner
 Följande krav ställs på ditt memoryspel:
 
 - Det ska gå generera fram spelplanen. Antal rader och kolumner ska på ett enkelt sätt kunna ändras. Det är dock tillåtet att göra denna enkla ändring i koden via t.ex. två variabler. Du behöver alltså inte läsa in spelplanens storlek från användaren.Nedan visas några exempel på hur en spelplan kan se ut. Bilderna visar en spelplan med 4x4 bilder (8 par) och en med 4x2 (4 par).
-![][memory4x4]
-![][memory2x4]
+![][memory4]
+![][memory2]
 
 * Det ska endast finnas två bilder av samma typ på spelplanen.
 * Bildernas position på spelplanen ska slumpas fram. Till din hjälp har du metoden 
