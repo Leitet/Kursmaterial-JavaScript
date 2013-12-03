@@ -84,7 +84,7 @@ Ovanstående är bara ett lösningsförslag och du är helt fri att lösa uppgif
 
 För dig som satsar på högre betyg. Se nedan ;)
 
-## ![][star] För en större utmaning
+## ![][star_h2] För en större utmaning
 _(Detta steg ger inte högre betyg på denna laboration som enbart bedöms med U/G men kommer att hjälpa dig vid projektet)_
 
 På denna stjärnuppgift ska du likt, Labby Mezzsage, göra så att flera instanser av spelet kan köras samtidigt på samma HTML-sida:
