@@ -80,7 +80,7 @@ Ett möjligt upplägg kan vara detta:
 12. Kontrollera räknaren så att du vet när spelaren vunnit.
 13. Klart!
 
-Ovanstående är bara ett lösningsförslag och du är helt fri att lösa uppgiften som du vill, men tycker du det är knepigt kan texten ovan underlätta.
+Ovanstående är bara ett lösningsförslag och du är helt fri att lösa uppgiften som du vill, men tycker du det är knepigt kan texten ovan underlätta. Det är också helt okej att använda egna bilder till memoryt och skriva en egen random-funktion.
 
 För dig som satsar på högre betyg. Se nedan ;)
 
