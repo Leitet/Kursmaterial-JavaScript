@@ -91,11 +91,25 @@ _(Detta steg ger inte högre betyg på denna laboration som enbart bedöms med U
 På denna stjärnuppgift ska du likt, Labby Mezzsage, göra så att flera instanser av spelet kan köras samtidigt på samma HTML-sida:
 
 **memoryapp.js:**
-
+```js
+var MemoryApp = {
+   init: function(){
+      var mem1 = new Memory(3,4,"game1");
+      var mem2 = new Memory(3,4,"game2");
+      mem1.start();
+      mem2.start();
+   }
+};
+```
 
 **index.html:**
+```html
+<!-- Här kommer mitt första memoryspel att köras -->
+<div id="game1"></div>
 
-
+<!-- Här kommer mitt andra memoryspel att köras -->
+<div id="game2"></div>
+```
 I fallet ovan så skapas spelen genom att ett nytt objekt av "klassen" Memory instansieras. 3 och 4 är givetvis rader och kolumner medan "game1" och "game2" är IDt på de noder i DOMen som spelen ska skapas i. När väl spelet är startat så sköter detta sig helt och hållet självt.
 
 Vill man kan man klara sig på enbart en "klass" som sköter hela spelet, men man kan också tänka sig att man skapar ytterligare en "klass", **_brick_**, som representerar en spelbricka, även om dessa nog är enklare att hantera i en array som är en egenskap på din "Memory-klass".
