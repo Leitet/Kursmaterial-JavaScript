@@ -1,11 +1,13 @@
 ## Inledning
 Denna laboration ställer ganska höga krav på dig som laborant. Du kommer till stor del vara tvungen att leta upp information själv och fundera ut egna lösningar på problem som ställs.
-I denna laboration kommer du att skriva ett enklare Memoryspel
 
-## Mål
+I denna laboration kommer du att skriva ett enklare Memoryspel.
+Glöm inte att läsa spelets krav senare i detta dokument.
+
+### Mål
 Efter genomför laboration kommer du att ha en god förståelse för händelsehantering kopplad till DOM. Vidare kommer du att utökat din förståelse för problemlösning i större programmeringsproblem än du tidigare ställts inför.
 
-## Strict mode
+### Strict mode
 Samtliga inlänkade javascriptfiler ska använda ES5 strict-mode. Av denna anledning ska strängen:
 
 ```js
@@ -14,7 +16,7 @@ Samtliga inlänkade javascriptfiler ska använda ES5 strict-mode. Av denna anled
 
 placeras överst i varje .js-fil.
 
-## Observera 
+### Observera 
 För att bli godkänd på laborationen ska din källkod följa den standard vad det gäller kommentering, val av variabelnamn m.m. som gåtts igenom på föreläsning. Ditt Javascript måste även fungera enligt de krav som finns beskrivna i denna laborationshandledning.
 
 För att kunna genomföra denna laboration måste du vara förberedd **innan** du går på handledningstillfället, det är inte förbjudet, utan rekommenderat, att göra laborationen i förväg. 
@@ -22,12 +24,6 @@ För att kunna genomföra denna laboration måste du vara förberedd **innan** d
 Vid fuskmisstanke lämnas misstankar samt berörda dokument över till universitetets disciplinnämnd.
 
 Läs igenom hela laborationshandledningen **innan** du påbörjar laborationen.
-
-
-## Inledning
-Denna laboration ställer högre krav på dig som laborant än tidigare. Du kommer till stor del vara tvungen att leta upp information själv och fundera ut egna lösningar på problem som ställs.
-I denna laboration kommer du att skriva ett enklare Memoryspel.
-Glöm inte att läsa spelets krav senare i detta dokument.
 
 ## Uppgift 1 – Memory
 Denna laboration består endast av en uppgift, nämligen att skriva ett memoryspel i javascript.
