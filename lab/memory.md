@@ -122,7 +122,9 @@ Lycka till!
 - Du har ingen javascript-kod i HTML-koden, varken i HTML-dokumentet eller i den genererade html-koden.
 - Spelet fungerar att spela enbart med hjälp av tangentbordet. (a-taggar runt bilderna)
 
-[star]:https://coursepress.lnu.se/program/webbprogrammerare/wp-content/plugins/coursepress/icons/16/star_yellow.png
+[star_h2]:https://coursepress.lnu.se/program/webbprogrammerare/wp-content/plugins/coursepress/icons/24/star_yellow.png
+
+[star_h3]:https://coursepress.lnu.se/program/webbprogrammerare/wp-content/plugins/coursepress/icons/16/star_yellow.png
 
 [info]:https://coursepress.lnu.se/program/webbprogrammerare/wp-content/plugins/coursepress/icons/16/information.png
 
