@@ -1,18 +1,17 @@
-* Reguljära uttryck, lathund
+# Reguljära uttryck, lathund
 
-Metatecken: 
+## Metatecken
+```^``` Matcha radbörjan 
+```$``` Matcha radslut 
+```.``` Matcha ett godtyckligt tecken 
+```\*``` Matcha föregående mönster 0, 1 eller flera gånger 
+```+``` Matcha föregående mönster 1 eller flera gånger 
+```?``` Matcha föregående mönster 0 eller 1 gång 
+```|``` Matcha föregående mönster eller nästkommande mönster
 
-```**^**``` Matcha radbörjan 
-```**$**``` Matcha radslut 
-**.** Matcha ett godtyckligt tecken 
-**\*** Matcha föregående mönster 0, 1 eller flera gånger 
-**+** Matcha föregående mönster 1 eller flera gånger 
-**?** Matcha föregående mönster 0 eller 1 gång 
-**|** Matcha föregående mönster eller nästkomman mönster
-
-Parantesuttryck: 
-**()** Gruppera 
-**{**m**,**n**}** Anger hur många gånger föregående mönster ska matchas: 
+## Parantesuttryck: 
+```()``` Gruppera 
+```{m,n}``` Anger hur många gånger föregående mönster ska matchas: 
 {4} Matcha föregående mönster fyra gånger. 
 {4,} Matcha föregående mönster minst fyra gånger. 
 {2,6} Matcha föregående mönster minst två gånger, maximalt sex. 
