@@ -44,8 +44,7 @@
 * ```/.../m``` ^ kommer att ses som radstart och $ kommer att ses som radslut istället för sträng start och slut.
 
 ## Exempel: 
-Matcha "tre" någonstans i en sträng: 
-```/tre/``` 
+* Matcha "tre" någonstans i en sträng: ```/tre/``` 
 
 Detta kommer att matcha på "**tre**", ”**tre**vligt”, ”Star **tre**k” medan 
 ```/^tre/``` enbart kommer att matcha på ”**tre**” och ”**tre**vligt” men inte ”Star Trek” 
