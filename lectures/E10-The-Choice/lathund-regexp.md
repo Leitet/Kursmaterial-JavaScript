@@ -5,23 +5,24 @@
 * ```^``` Matcha radbörjan 
 * ```$``` Matcha radslut 
 * ```.``` Matcha ett godtyckligt tecken 
-* ```\*``` Matcha föregående mönster 0, 1 eller flera gånger 
+* ```*``` Matcha föregående mönster 0, 1 eller flera gånger 
 * ```+``` Matcha föregående mönster 1 eller flera gånger 
 * ```?``` Matcha föregående mönster 0 eller 1 gång 
 * ```|``` Matcha föregående mönster eller nästkommande mönster
 
 ## Parantesuttryck: 
-```()``` Gruppera 
-```{m,n}``` Anger hur många gånger föregående mönster ska matchas: 
-{4} Matcha föregående mönster fyra gånger. 
-{4,} Matcha föregående mönster minst fyra gånger. 
-{2,6} Matcha föregående mönster minst två gånger, maximalt sex. 
-{0,} Samma som ***** {1,} Samma som **+** 
-{0,1} Samma som **? 
-**[**tecken**] Anger en mängd av tecken som ska matchas: 
-**[^**tecken**]** Anger en mängd av tecken som inte ska matchas: 
-[krtg] Matcha något av tecknen ”**k**” ”**r**” ”**t**” ”**g**” 
-[a-f] Matcha något av tecknen ”**a**” ”**b**” ”**c**” ”**d**” ”**e**” ”**f**” 
+* ```()``` Gruppera 
+* ```{m,n}``` Anger hur många gånger föregående mönster ska matchas: 
+* ```{4}``` Matcha föregående mönster fyra gånger. 
+* ```{4,}``` Matcha föregående mönster minst fyra gånger. 
+* ```{2,6}``` Matcha föregående mönster minst två gånger, maximalt sex. 
+* ```{0,}``` Samma som ```*``` 
+* ```{1,}``` Samma som ```+``` 
+* ```{0,1}``` Samma som ```?``` 
+* ```[tecken]``` Anger en mängd av tecken som ska matchas: 
+* ```[^tecken]``` Anger en mängd av tecken som inte ska matchas: 
+* ```[krtg]``` Matcha något av tecknen ```k``` ```r``` ```t``` ```g``` 
+* ```[a-f]``` Matcha något av tecknen ```a``` ```b``` ```c``` ```d``` ```e``` ```f``` 
 [^a-f] Matcha alla tecken som inte är ”**a**” ”**b**” ”**c**” ”**d**” ”**e**” ”**f**” 
 [A-ZÅÄÖ] Matchar alla versaler i det svenska alfabetet. 
 [a-zåäö] Matchar alla gemener i det svenska alfabetet. 
