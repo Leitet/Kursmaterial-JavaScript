@@ -1,13 +1,14 @@
 # Reguljära uttryck, lathund
 
 ## Metatecken
-```^``` Matcha radbörjan 
-```$``` Matcha radslut 
-```.``` Matcha ett godtyckligt tecken 
-```\*``` Matcha föregående mönster 0, 1 eller flera gånger 
-```+``` Matcha föregående mönster 1 eller flera gånger 
-```?``` Matcha föregående mönster 0 eller 1 gång 
-```|``` Matcha föregående mönster eller nästkommande mönster
+
+* ```^``` Matcha radbörjan 
+* ```$``` Matcha radslut 
+* ```.``` Matcha ett godtyckligt tecken 
+* ```\*``` Matcha föregående mönster 0, 1 eller flera gånger 
+* ```+``` Matcha föregående mönster 1 eller flera gånger 
+* ```?``` Matcha föregående mönster 0 eller 1 gång 
+* ```|``` Matcha föregående mönster eller nästkommande mönster
 
 ## Parantesuttryck: 
 ```()``` Gruppera 
