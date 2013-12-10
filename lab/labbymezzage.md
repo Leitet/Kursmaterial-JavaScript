@@ -30,7 +30,7 @@ Denna laboration består av en enda uppgift som är uppdelad i steg. Du som kän
 
 Uppgiften går ut på att skapa en enklare meddelandetjänst där vi kan lägga till och ta bort meddelanden. Detta ska ske på ett för användaren enkelt och smidigt sätt. Dock sätter vi begränsningen på denna laboration att man måste ha javascript aktiverat för att den ska fungera.
 
-Det är upp till dig själv att skapa layouten för sidan men du ska anstränga dig för att göra en grafiskt tilltalande applikation.
+Det är upp dig själv att skapa layouten för sidan men du ska anstränga dig för att göra en grafiskt tilltalande applikation.
 
 Tillsammans med denna handledning finns en demonstrationsfilm som visar hur applikationen ska fungera. Du kan även läsa om detta i de funktionella kraven.
 
