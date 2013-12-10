@@ -45,7 +45,7 @@
 
 ## Exempel: 
 Matcha "tre" någonstans i en sträng: 
-* ```/tre/``` 
+```/tre/``` 
 
 Detta kommer att matcha på "**tre**", ”**tre**vligt”, ”Star **tre**k” medan 
 ```/^tre/``` enbart kommer att matcha på ”**tre**” och ”**tre**vligt” men inte ”Star Trek” 
