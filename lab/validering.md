@@ -37,7 +37,7 @@ Formulärdatat ska skickas till sidan: http://voyager.lnu.se/tekinet/kurser/dtt/
 
 Metoden som används för att skicka datan ska vara POST.
 
-•	Testa nu att formuläret fungerar och att datan skickas till sidan som är angiven ovan och på denna sida presenteras.
+* Testa nu att formuläret fungerar och att datan skickas till sidan som är angiven ovan och på denna sida presenteras.
 
 ### Moment 3 - Valideringen
 Du ska nu se till att validera dokumentet innan det skickas. All JavaScript-kod som används lägger du i ett objekt, t.ex. Validator eller liknande. 
@@ -64,7 +64,8 @@ Felmeddelanden är inget som gör en användare glad, och vi vill ju ha glada an
 ![][validering_form3-1]
 ![][validering_form3-2]
 
-
+### Moment 4 - Popup
+![][validering_form4]För att ytterligare säkerställa att användaren matar in korrekta uppgifter så ska användaren bli tillfrågad om dennes uppgifter är korrekta via en modal popup-ruta. Det vill säga en popup som enbart tillåter att användaren gör val i popupen och inte samtidigt kan ändra i t.ex. formuläret i bakgrunden.För att tydliggöra för användaren att det är popuprutan fokus ska läggas på ska bakgrunden dimmas medan popuprutan visas.I popupen ska användaren få den data denne skrivit in presenterad för sig samt ges två val:* Bekräfta ditt köp (eller motsvarande)* AvbrytOm "Bekräfta ditt köp" klickas ska formuläret skickas och om "Avbryt" så ska användaren återigen få möjlighet att ändra i formuläret.När du konstruera popup-rutan så ska texten till respektive fält ("Förnamn:", "Postnummer:" etc.) dynamiskt läsas in från formuläret. Detta ska allts inte hårdkodas i popupen!* Popuprutan visas först när användaren klickar på Genomför köp-knappen* Popuprutan inte visas om formuläret innehåller någon felaktighet* De val användaren gör i formuläret presenteras i Popuprutan* Användaren kan välja att avbryta eller bekräfta köp* Bakgrunden är gråad och det går inte att klicka i formuläret då popuprutan visas.## Kontrollera laborationens krav (bocka av)* HTML-dokumentet är validerat och godkänt enligt valfri W3Cs rekommendation.* Det finns ingen JavaScript-kod i .html-dokumentet eller i den av Javascript genererade html-koden.* Sidan fungerar utan JavaScript men formuläret skickas oavsett vad användaren skriver när JavaScript är avaktiverat i webbläsaren.* JavaScriptet är helt befriat från CSS-kod* innerHTML används inte någonstans i laborationen.
 [star_h2]:https://coursepress.lnu.se/program/webbprogrammerare/wp-content/plugins/coursepress/icons/24/star_yellow.png
 
 [star_h3]:https://coursepress.lnu.se/program/webbprogrammerare/wp-content/plugins/coursepress/icons/16/star_yellow.png
@@ -75,3 +76,4 @@ Felmeddelanden är inget som gör en användare glad, och vi vill ju ha glada an
 [validering_form2]:pics/validering_form2.png
 [validering_form3-1]:pics/validering_form3-1.png
 [validering_form3-2]:pics/validering_form3-2.png
+[validering_form4]:pics/validering_form4.png
