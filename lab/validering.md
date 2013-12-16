@@ -33,7 +33,7 @@ Börja med att skapa ett formulär i HTML och CSS med valfritt utseende. Det är
 
 ![][validering_form1]
 
-Formulärdatat ska skickas till sidan: http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbteknik/process_form.php
+Formulärdatat ska skickas till sidan: http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbteknik/process_form.php (För att logga in skriv ```lnu\```före ditt användarnamn)
 
 Metoden som används för att skicka datan ska vara POST.
 
@@ -59,14 +59,55 @@ Om ett fel i ett fält hittas ska detta tydligt markeras då användaren lämnar
 * I denna laboration ska du inte använda innerHTML utan skapa samtliga objekt med document.createElement()
 
 ### Moment 3 - Hjälp användaren
-Felmeddelanden är inget som gör en användare glad, och vi vill ju ha glada användare! Varför då visa felmeddelanden om vi med kod kan rätta till dem? Du ska därför se till att användaren kan skriva sitt postnummer på ett antal olika format, men när användaren lämnar textfältet så görs användarens postnummer automatiskt om till det format vi vill ha, nämligen XXXXX.De format som vi ska kunna hantera är:* XXXXX* XXX-XX* XXX XX* SEXXXXX* SEXXX-XX* SEXXX XX* SE XXXXX* SE XXX-XX* SE XXX XX Om något av formaten ovan påträffas så ska detta göras  om till XXXXX. Om formatet inte överrensstämmer så ska fortfarande ett felmeddelande visas. X – motsvarar en siffra 0-9.
+Felmeddelanden är inget som gör en användare glad, och vi vill ju ha glada användare! Varför då visa felmeddelanden om vi med kod kan rätta till dem? 
+
+Du ska därför se till att användaren kan skriva sitt postnummer på ett antal olika format, men när användaren lämnar textfältet så görs användarens postnummer automatiskt om till det format vi vill ha, nämligen XXXXX.
+
+De format som vi ska kunna hantera är:
+* XXXXX
+* XXX-XX
+* XXX XX
+* SEXXXXX
+* SEXXX-XX
+* SEXXX XX
+* SE XXXXX
+* SE XXX-XX
+* SE XXX XX
+ 
+Om något av formaten ovan påträffas så ska detta göras  om till XXXXX. Om formatet inte överrensstämmer så ska fortfarande ett felmeddelande visas. 
+
+X – motsvarar en siffra 0-9.
 
 ![][validering_form3-1]
 ![][validering_form3-2]
 
 ### Moment 4 - Popup
 ![][validering_form4]
-För att ytterligare säkerställa att användaren matar in korrekta uppgifter så ska användaren bli tillfrågad om dennes uppgifter är korrekta via en modal popup-ruta. Det vill säga en popup som enbart tillåter att användaren gör val i popupen och inte samtidigt kan ändra i t.ex. formuläret i bakgrunden.För att tydliggöra för användaren att det är popuprutan fokus ska läggas på ska bakgrunden dimmas medan popuprutan visas.I popupen ska användaren få den data denne skrivit in presenterad för sig samt ges två val:* Bekräfta ditt köp (eller motsvarande)* AvbrytOm "Bekräfta ditt köp" klickas ska formuläret skickas och om "Avbryt" så ska användaren återigen få möjlighet att ändra i formuläret.När du konstruera popup-rutan så ska texten till respektive fält ("Förnamn:", "Postnummer:" etc.) dynamiskt läsas in från formuläret. Detta ska allts inte hårdkodas i popupen!* Popuprutan visas först när användaren klickar på Genomför köp-knappen* Popuprutan inte visas om formuläret innehåller någon felaktighet* De val användaren gör i formuläret presenteras i Popuprutan* Användaren kan välja att avbryta eller bekräfta köp* Bakgrunden är gråad och det går inte att klicka i formuläret då popuprutan visas.## Kontrollera laborationens krav (bocka av)* HTML-dokumentet är validerat och godkänt enligt valfri W3Cs rekommendation.* Det finns ingen JavaScript-kod i .html-dokumentet eller i den av Javascript genererade html-koden.* Sidan fungerar utan JavaScript men formuläret skickas oavsett vad användaren skriver när JavaScript är avaktiverat i webbläsaren.* JavaScriptet är helt befriat från CSS-kod* innerHTML används inte någonstans i laborationen.
+För att ytterligare säkerställa att användaren matar in korrekta uppgifter så ska användaren bli tillfrågad om dennes uppgifter är korrekta via en modal popup-ruta. Det vill säga en popup som enbart tillåter att användaren gör val i popupen och inte samtidigt kan ändra i t.ex. formuläret i bakgrunden.
+
+För att tydliggöra för användaren att det är popuprutan fokus ska läggas på ska bakgrunden dimmas medan popuprutan visas.
+
+I popupen ska användaren få den data denne skrivit in presenterad för sig samt ges två val:
+* Bekräfta ditt köp (eller motsvarande)
+* Avbryt
+
+Om "Bekräfta ditt köp" klickas ska formuläret skickas och om "Avbryt" så ska användaren återigen få möjlighet att ändra i formuläret.
+
+När du konstruera popup-rutan så ska texten till respektive fält ("Förnamn:", "Postnummer:" etc.) dynamiskt läsas in från formuläret. Detta ska allts inte hårdkodas i popupen!
+
+* Popuprutan visas först när användaren klickar på Genomför köp-knappen
+* Popuprutan inte visas om formuläret innehåller någon felaktighet
+* De val användaren gör i formuläret presenteras i Popuprutan
+* Användaren kan välja att avbryta eller bekräfta köp
+* Bakgrunden är gråad och det går inte att klicka i formuläret då popuprutan visas.
+
+## Kontrollera laborationens krav (bocka av)
+* HTML-dokumentet är validerat och godkänt enligt valfri W3Cs rekommendation.
+* Det finns ingen JavaScript-kod i .html-dokumentet eller i den av Javascript genererade html-koden.
+* Sidan fungerar utan JavaScript men formuläret skickas oavsett vad användaren skriver när JavaScript är avaktiverat i webbläsaren.
+* JavaScriptet är helt befriat från CSS-kod
+* innerHTML används inte någonstans i laborationen.
+
 [star_h2]:https://coursepress.lnu.se/program/webbprogrammerare/wp-content/plugins/coursepress/icons/24/star_yellow.png
 
 [star_h3]:https://coursepress.lnu.se/program/webbprogrammerare/wp-content/plugins/coursepress/icons/16/star_yellow.png
