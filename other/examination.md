@@ -41,12 +41,14 @@ Frågorna här differentieras beroende på betygsnivå.
 * Vad är reguljära uttryck?
 
 #### Exempel på fråga för betygsnivå 4:
-* Vad är skillnaden mellan "event bubbling" och "event ..."
-* Förklara begreppet "closures"?
+* Vad är skillnaden mellan "event bubbling" och "event capturing"?
+* Förklara begreppet "closures".
 
 #### Exempel på fråga för betygsnivå 5:
-"Vad innebär call(Array.prototype.forEach, ..."
-"
+* Vad gör följande rad kod? Förklara ingående.
+"[].forEach.call( document.querySelectorAll('a'), function(element) {
+		// Do something
+});"
 
 ## Omexamination
 Omexamination erbjuds inom två veckor efter avslutat kurstillfälle men har i övrigt samma form och krav som ovan.
