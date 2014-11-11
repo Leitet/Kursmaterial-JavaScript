@@ -129,7 +129,7 @@ Testa genom att skriva ut resultatet till konsolen:
 var makePerson = function(persArr) {
    var result = {};
 
-   // Lös uppgiften
+   /* Lös uppgiften */
 
    return result;
 }
