@@ -38,9 +38,9 @@ Det första vi måste göra är att förstå hur API:t som vi fått på adressen
 
 Vad du behöver ha klart för dig innan du börjar koda:
 
-1) Hur får jag tag i frågan som användaren ska svara på?
-2) Hur skickar jag tillbaka svaret på frågan till API:et?
-3) I vilket format ska frågan skickas tillbaka?
+1. Hur får jag tag i frågan som användaren ska svara på?
+2. Hur skickar jag tillbaka svaret på frågan till API:et?
+3. I vilket format ska frågan skickas tillbaka?
 
 ### Uppgift
 Skapa nu din applikation genom att skapa lämpliga filer i katalogen "4-thequiz" i ditt laborationsrepositorie. Beskrivningen ovan bör vara nog för att förstå hur applikationen ska fungera.
