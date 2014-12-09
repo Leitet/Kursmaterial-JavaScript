@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+	
+    <head>
+        <title>Laboration - Labby Mezzage</title>
+      
+     	<link rel="stylesheet" type="text/css" href="dyn.css" />
+		
+        
+    </head>
+	
+	<body>        
+
+        <div id="container">
+            <div id="messageboard">
+                <div id="messagearea"></div>
+                
+                <p id="numberOfMess">Antal meddelanden: <span id="nrOfMessages">0</span></p>
+                <textarea id="inputText" cols="55" rows="6"></textarea>
+                <input type="button" id="buttonSend" value="skriv" />
+                <span class="clear">&nbsp;</span>
+
+            </div>
+
+        </div>
+
+        <ul id="test"><li>Test</li><li>Test</li></ul>
+  
+        
+         <script id="templateMessage" type="x-tmpl-mustache">
+            
+                <a href="#"><img src="pic/delete.png" class="close" alt="Close"></a>
+                <a href="#"><img src="pic/clock.png" class="showTime" alt="Show creation time"></a>
+                <p class="messageText">{{{ text }}}</p> <!-- Tripple { to render unescaped HTML -->
+                <span class="time">{{ time }}</span>
+                <span class="clear"></span>
+            
+         </script>
+
+            <script data-main="scripts/main" src="scripts/lib/require.js"></script>
+	</body>
+</html>
